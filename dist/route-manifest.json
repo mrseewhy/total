@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "pages": {
+    "/": {
+      "label": "Home",
+      "title": "Homes for Sale & Rent in Lagos | {siteName}",
+      "description": "Find a home that fits the life you want to live. Explore homes for sale and rent in Lagos with honest, local guidance.",
+      "heading": "More than a house. A place to belong."
+    },
+    "/about": {
+      "label": "About",
+      "title": "About Us | {siteName}",
+      "description": "Get to know Haven Real Estate, a Lagos-based team helping you buy, rent, and sell with clear advice and a personal approach.",
+      "heading": "Good places. Even better beginnings.",
+      "schema": "AboutPage"
+    },
+    "/contact": {
+      "label": "Contact",
+      "title": "Contact Us | {siteName}",
+      "description": "Contact Haven Real Estate about buying, renting, or selling a home in Lagos. Share your needs and start a conversation with our team.",
+      "heading": "Let’s find your place.",
+      "schema": "ContactPage"
+    },
+    "/blog": {
+      "label": "Blog listing"
+    },
+    "/services": {
+      "label": "Services listing"
+    },
+    "/events": {
+      "label": "Events listing"
+    },
+    "/properties": {
+      "label": "Properties listing"
+    }
+  }
+}
