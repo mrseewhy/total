@@ -1,0 +1,15 @@
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+# Hide dotfiles except ACME/domain-verification paths.
+RewriteRule (^|/)\.(?!well-known(?:/|$)) - [F,L]
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "no-referrer"
+</IfModule>
+RewriteRule ^api(?:/|$) - [L]
+RewriteRule ^(?:robots\.txt|sitemap(?:-[a-z0-9_-]+)?\.xml|index\.html)$ index.php [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]

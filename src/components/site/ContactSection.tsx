@@ -1,0 +1,5 @@
+import ContactForm from './ContactForm'
+
+export default function ContactSection() {
+  return <section id="inquiry" className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-2 lg:gap-24 lg:px-10"><div><p className="text-[11px] font-semibold tracking-[.2em] text-[#8b785b]">LET'S TALK</p><h2 className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">Your next chapter<br/>starts with a hello.</h2><p className="mt-6 max-w-sm text-sm leading-7 text-stone-500">A first home, a new neighbourhood, or a fresh start. Tell us what you have in mind and let's explore the possibilities together.</p><div className="mt-10 border-t border-stone-200 pt-6"><p className="text-sm font-medium">A conversation, without the pressure.</p><p className="mt-2 text-xs leading-6 text-stone-500">Share your preferred location, budget, and timeline.<br/>We'll help you work out the next step.</p></div></div><div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-8"><h3 className="mb-6 text-xl font-medium">How can we help?</h3><ContactForm/></div></section>
+}

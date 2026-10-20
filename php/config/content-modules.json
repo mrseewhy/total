@@ -1,0 +1,35 @@
+{
+  "posts": {
+    "label": "Blog",
+    "singular": "post",
+    "path": "blog",
+    "icon": "FileText",
+    "profile": "article",
+    "scheduling": true,
+    "description": "News, local insights, and ideas for your next home from Haven Real Estate."
+  },
+  "services": {
+    "label": "Services",
+    "singular": "service",
+    "path": "services",
+    "icon": "BriefcaseBusiness",
+    "profile": "service",
+    "description": "From your first property search to managing a home, explore the practical support available from Haven Real Estate."
+  },
+  "events": {
+    "label": "Events",
+    "singular": "event",
+    "path": "events",
+    "icon": "CalendarDays",
+    "profile": "event",
+    "description": "Discover upcoming property events and opportunities to meet the Haven Real Estate team."
+  },
+  "properties": {
+    "label": "Properties",
+    "singular": "property",
+    "path": "properties",
+    "icon": "House",
+    "profile": "property",
+    "description": "Explore published homes for sale and rent with Haven Real Estate. Find your next place in Lagos."
+  }
+}

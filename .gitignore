@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Private server configuration and runtime files
+.env
+.env.*
+!.env.example
+php/config.php
+php/*.config.local.php
+php/.migrate.lock
+# Built files published into public/ on the shared host
+public/assets/
+public/index.html
+
+# Generated from public React routes; included in dist by Vite
+public/route-manifest.json
+
+php/config/.modules.lock
+
+# Sensitive backup archives and command locks
+php/storage/backups/
+php/storage/.backup.lock
